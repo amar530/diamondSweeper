@@ -27,7 +27,7 @@ export default class GameLayout extends Component {
     }
     componentDidMount=()=>{
         this.countRandom(8)
-        console.log(this.state.diamond_list)
+        // console.log(this.state.diamond_list)
     }
 // click on question    
     _click=(e)=>{
